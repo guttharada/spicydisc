@@ -6,10 +6,10 @@ function toggleMenu() {
 }
 document.addEventListener("DOMContentLoaded", function () {
   const video = document.getElementById("backgroundVideo");
-  // video.muted = true;
+  video.muted = true;
   video.play().catch((error) => {
     console.error("Autoplay was prevented:", error);
-    // video.muted = true;
+    video.muted = true;
     video.play();
   });
 });
