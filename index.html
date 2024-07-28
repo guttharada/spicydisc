@@ -46,16 +46,19 @@
     <main>
       <!-- section 1 -->
       <section id="Benner">
-        <div class="benner">
-          <div class="banner_video" id="ParallaxImage">
-            <video controls autoplay loop id="backgroundVideo">
-              <source
-                src="./img/กลัวเธอเหงา - ROOFTOP Live(IN)Lounge.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+        <div class="benner" id="ParallaxImage">
+          <video
+          controls
+          playsinline="playsinline"
+          autoplay="autoplay"
+          muted="muted"
+          loop="loop"
+          loading="lazy"
+          class="hero__video"
+        >
+          <source src="/img/กลัวเธอเหงา - ROOFTOP Live(IN)Lounge.mp4" type="video/mp4" />
+        </video>
+
           <div class="banner_content" id="ParallaxContent">
             <h1>SPICY <br />DISC <span class="munsic">MUSIC</span>.</h1>
           </div>
@@ -64,8 +67,10 @@
       <!-- section 1 -->
 
       <!-- section 2 -->
-      <section  id="MelodyOfLife">
-        <div class="min_vh_75 d-flex flex-column justify-content-center align-items-center">
+      <section id="MelodyOfLife">
+        <div
+          class="min_vh_75 d-flex flex-column justify-content-center align-items-center"
+        >
           <marquee
             scrollamount="20"
             direction="left"
