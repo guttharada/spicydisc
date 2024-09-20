@@ -29,3 +29,20 @@ document.addEventListener("scroll", function () {
     }px, 0)`;
   }
 });
+
+
+function loaderAnimation() {
+  var loader = document.querySelector("#loader")
+  setTimeout(function () {
+      loader.style.top = "-100%"
+  }, 4200)
+}
+loaderAnimation()
+
+// const scroll = new LocomotiveScroll({
+//   el: document.querySelector('html'),
+//   smooth: true
+// });
+
+
+
