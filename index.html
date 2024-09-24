@@ -2,8 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SPICY DICS</title>
+    <title>Gravity Coding</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -12,129 +14,139 @@
       rel="stylesheet"
       href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-    /> -->
-    <link rel="stylesheet" href="/style.css" />
   </head>
-  <body >
+  <body>
     <div id="loader">
       <h1>MUSIC</h1>
       <h1>ARCTIS</h1>
       <h1>SPICYDISC</h1>
     </div>
+    <!-- <div class="main-p"></div> -->
+    <div id="main">
+      <div id="top">
+        <h1 id="top-h1">SPICYDISC</h1>
+      </div>
+      <div id="center">
+        <!--Header Start-->
+        <header class="header p-3 position-absolute start-0 top-0 end-0">
+          <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="#Benner" class="text-decoration-none">
+                <img
+                  src="/img/11 1.png"
+                  alt="logo"
+                  class="img-fluid"
+                  style="max-width: 70px"
+                />
+              </a>
+              <nav class="d-flex justify-content-between w-100">
+                <a
+                  href="#MelodyOfLife"
+                  class="text-white text-decoration-none mx-3"
+                  >MELODY OF LIFE</a
+                >
+                <a href="#" class="text-white text-decoration-none mx-3"
+                  >ENVIRONMENT</a
+                >
+                <a href="#" class="text-white text-decoration-none mx-3"
+                  >LINE UP ARTISTE</a
+                >
+              </nav>
+            </div>
+          </div>
+        </header>
+        <!--Header End-->
+        <!-- section 1 -->
+        <section id="Benner">
+          <div class="benner" id="ParallaxImage">
+            <video
+              controls
+              playsinline="playsinline"
+              autoplay="autoplay"
+              muted="muted"
+              loop="loop"
+              loading="lazy"
+              class="hero__video"
+            >
+              <source
+                src="/img/กลัวเธอเหงา - ROOFTOP Live(IN)Lounge.mp4"
+                type="video/mp4"
+              />
+            </video>
 
-    <!--Header Start-->
-    <header class="header p-3 position-absolute start-0 top-0 end-0">
-      <div class="container-fluid">
-        <div class="d-flex justify-content-between align-items-center">
-          <a href="#Benner" class="text-decoration-none">
-            <img
-              src="/img/11 1.png"
-              alt="logo"
-              class="img-fluid"
-              style="max-width: 70px"
-            />
-          </a>
-          <nav class="d-flex justify-content-between w-100">
-            <a href="#MelodyOfLife" class="text-white text-decoration-none mx-3"
-              >MELODY OF LIFE</a
+            <div class="banner_content" id="ParallaxContent">
+              <h2>SPICY <br />DISC <span class="munsic">MUSIC</span>.</h2>
+            </div>
+          </div>
+        </section>
+        <!-- section 1 -->
+      </div>
+      <div id="bottom">
+        <h1 id="bottom-h1">SPICYDISC</h1>
+        <div class="scroll-down-text">scroll down</div>
+      </div>      
+    </div>
+
+    <!-- Section 2 -->
+    <section id="MelodyOfLife">
+      <div
+        class="min_vh_35 d-flex flex-column justify-content-center align-items-center"
+      >
+        <marquee scrollamount="20" direction="left" class="marquee">
+          WE ARE A - <span class="munsic">GLOBAL</span> - COLLECTIVE - OF MUSIC
+          - <span class="munsic">MUSIC MAKERS</span> - AND MUSIC -
+          <span class="munsic">LOVERS</span>.
+        </marquee>
+        <div class="background_section" id="ParallaxBackground"></div>
+
+      </div>
+      <div class="px-5 d-flex flex-column flex-md-row melody_style mb-5">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h5>[ MELODY OF LIFE ]</h5>
+        </div>
+        <div class="col-md-6">
+          <p>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. Many desktop publishing
+            packages and web
+            <br />
+            <br />
+            <span class="munsic"
+              >page editors now use Lorem Ipsum as their default model text, and
+              a search for 'lorem ipsum' will uncover many web sites still in
+              their infancy. Various versions have evolved over the years,
+              sometimes by accident, sometimes on purpose (injected humour and
+              the like).</span
             >
-            <a href="#" class="text-white text-decoration-none mx-3"
-              >ENVIRONMENT</a
-            >
-            <a href="#" class="text-white text-decoration-none mx-3"
-              >LINE UP ARTISTE</a
-            >
-          </nav>
+          </p>
         </div>
       </div>
-    </header>
-    <!--Header End-->
 
-    <main>
-      <!-- section 1 -->
-      <section id="Benner">
-        <div class="benner" id="ParallaxImage">
-          <video
-            controls
-            playsinline="playsinline"
-            autoplay="autoplay"
-            muted="muted"
-            loop="loop"
-            loading="lazy"
-            class="hero__video"
-          >
-            <source
-              src="/img/กลัวเธอเหงา - ROOFTOP Live(IN)Lounge.mp4"
-              type="video/mp4"
-            />
-          </video>
-
-          <div class="banner_content" id="ParallaxContent">
-            <h1>SPICY <br />DISC <span class="munsic">MUSIC</span>.</h1>
-          </div>
+      <div class="px-5 d-flex flex-column flex-md-row melody_style">
+        <div class="col-md-6 ms-auto">
+          <p>
+            // PROMPT:MELODY OF LIFE is a vibrant music festival celebrating
+            music with diverse performances and lively activities.
+          </p>
         </div>
-      </section>
-      <!-- section 1 -->
+      </div>
+    </section>
 
-      <!-- section 2 -->
-      <section id="MelodyOfLife">
-        <div
-          class="min_vh_75 d-flex flex-column justify-content-center align-items-center"
-        >
-          <marquee
-            scrollamount="20"
-            direction="left"
-            class="marquee"
-            id="ParallaxContentt"
-          >
-            WE ARE A - <span class="munsic">GLOBAL</span> - COLLECTIVE - OF
-            MUSIC - <span class="munsic">MUSIC MAKERS</span> - AND MUSIC -
-            <span class="munsic">LOVERS</span>.
-          </marquee>
-          <div class="background_section" id="ParallaxBackground"></div>
-        </div>
-
-        <div class="px-5 d-flex flex-column flex-md-row melody_style mb-5">
-          <div class="col-md-6 mb-3 mb-md-0">
-            <h5>[ MELODY OF LIFE ]</h5>
-          </div>
-          <div class="col-md-6">
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web
-              <br />
-              <br />
-              <span class="munsic"
-                >page editors now use Lorem Ipsum as their default model text,
-                and a search for 'lorem ipsum' will uncover many web sites still
-                in their infancy. Various versions have evolved over the years,
-                sometimes by accident, sometimes on purpose (injected humour and
-                the like).</span
-              >
-            </p>
-          </div>
-        </div>
-
-        <div class="px-5 d-flex flex-column flex-md-row melody_style">
-          <div class="col-md-6 ms-auto">
-            <p>
-              // PROMPT:MELODY OF LIFE is a vibrant music festival celebrating
-              music with diverse performances and lively activities.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- section 2 -->
-    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"
+      integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
   </body>
-  <script src="./app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
 </html>
