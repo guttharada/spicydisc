@@ -19,7 +19,6 @@
   box-sizing: border-box;
 }
 
-
 html,
 body {
   width: 100%;
@@ -71,22 +70,24 @@ body {
 }
 
 #main h1 {
-  font-family: Founder;
-  font-size: 22vw;
+  /* font-family: Founder; */
+  /* font-size: 18vw; */
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #0e9c4f
+  color: #0e9c4f;
 }
 
 #top-h1 {
   bottom: 50%;
+  font-size: 18vw;
 }
 
 #bottom-h1 {
-  top: 0% !important;
+  top: 3% !important;
+  font-size: 18vw;
 }
 
 #bottom {
@@ -103,15 +104,14 @@ body {
 }
 
 .scroll-down-text {
-  font-family: 'Poppins', sans-serif; 
+  font-family: "Poppins", sans-serif;
   font-size: 1vw;
-  color: #ffffff; 
+  color: #ffffff;
   text-transform: uppercase;
   margin-top: 20px;
   letter-spacing: 1px;
   opacity: 0.8;
 }
-
 
 /* loader */
 #loader {
@@ -208,7 +208,7 @@ nav a:hover::after {
   position: relative;
   /* z-index: 50; */
   /* margin-bottom: 0px; */
-  padding-bottom: 180px;
+  padding-bottom: 150px;
 }
 .benner {
   display: flex;
@@ -234,34 +234,34 @@ nav a:hover::after {
 
 /* section 2 */
 .min_vh_35 {
-    min-height: 35vh;
-  }
-  .background_section {
-    position: fixed;
-    background-size: cover;
-    background-image: url("/img/logo 3.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 400px;
-    margin-top: 10px;
-    height: 400px;
-    z-index: 1;
-  }
-  .marquee {
-    position: relative;
-    font-size: 100px;
-    font-weight: 900;
-    color: #ffffff;
-  }
-  .marquee .munsic {
-    color: #0e9c4f;
-  }
-  .melody_style {
-    font-size: 20px;
-    color: #ffffff;
-  }
-  .melody_style .munsic {
-    color: #0e9c4f;
-  }
-  /* section 2 */
+  min-height: 35vh;
+}
+.background_section {
+  position: fixed;
+  background-size: cover;
+  background-image: url("/img/logo 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  height: 400px;
+  z-index: 1;
+}
+.marquee {
+  position: relative;
+  font-size: 100px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.marquee .munsic {
+  color: #0e9c4f;
+}
+.melody_style {
+  font-size: 20px;
+  color: #ffffff;
+}
+.melody_style .munsic {
+  color: #0e9c4f;
+}
+/* section 2 */
